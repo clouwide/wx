@@ -1,0 +1,248 @@
+html,body{
+	height: 100%;
+}
+.swiper-container {
+    height: 100%;
+}  
+.swiper-slide{
+	height: 100%;
+}
+.swiperF{
+	background: url(../images/bg1.png)  no-repeat;
+}
+.swiperS{
+	background: url(../images/bg2.png)  no-repeat;
+}
+.swiperT{
+
+}
+.swiperFourth{
+	background: url(../images/bg4.png)  no-repeat;
+}  
+.swiper-slide{
+	background-size: 100% 100%;
+}
+/*-----1屏--------*/
+.swiperF .eye_box{
+	height: 7.424rem;
+	background: url(../images/eye1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.eye_content .eye_what{
+	text-align: center;
+    font-family: cursive;
+    font-size: 28px;
+	font-weight: 700;
+	height: 40px;
+	line-height: 1.706667rem;
+	margin-bottom: 0.853333rem;
+}
+.eye_content .content{
+	padding: 0 0.426667rem;
+	font-size: 17px;
+	font-family: fantasy;
+	text-indent: 1.450667rem;
+	line-height: 1.194667rem;
+}
+.xinhua{
+	padding: 0 0.426667rem;
+	font-size: 17px;
+	font-family: fantasy;
+	line-height: 1.194667rem;
+}
+
+/*-----2屏---*/
+.swiperS{
+	position: relative;
+}
+.swiperS .open_eye_box{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 9.642667rem;
+	background: url(../images/bg2_bottom.png) no-repeat;
+	background-size: 100% 100%;
+}
+.swiperS .open_eye_box .open_eye{
+	position: absolute;
+	bottom: 2.218667rem;
+	left: 22%;
+	width: 58%;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../images/bt2.png) no-repeat center;
+	background-size: auto 100%; 
+	/*cursor: pointer;*/
+}
+.swiperS #use_camera{
+	position: absolute;
+	top: 18px;
+	left: 0;
+	right: 0;
+	width:80%;
+	margin:auto;
+	height: 66%;
+	opacity: 0;
+	/*filter:alpha(opacity=0); */
+}
+/*-----3屏-------*/
+.swiperT .camera_box{
+	position: relative;
+	height: 80%;
+
+}
+#user_jpg{
+	width: 100%;
+	height: 100%;
+}
+.swiperT .camera_box .loading{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	bottom: 30%;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+	background: url(../images/loading.png) no-repeat center;
+	background-size: 100% 100%; 
+}
+.swiperT .camera_box .loading .red{
+	margin-top: 15px;
+    margin-left: 35px;
+    width: 61px;
+}
+
+.swiperT .use_box{
+	height: 20%;
+	background: url(../images/bg3_bottom.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.swiperT .use_box .cancel{
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiperT .use_box .cancel img{
+	height: 100%;
+}
+.swiperT .use_box .use{
+	width: 30%;
+	height: 100%;
+	margin-left: 15%;
+}
+.swiperT .use_box .use .use_btn{
+	height: 80%;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.swiperT .use_box .use img{
+	height: 110%;
+}
+
+/*-----fourth-----*/
+
+.swiperFourth{
+	position: relative;
+}
+.swiperFourth .title{
+	padding-top: 40px;
+	color: #f2f2f2;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	text-align: center;
+}
+.swiperFourth .photo_box{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 5.676rem;
+	margin:0 auto;
+	width:47%;
+	height: 38%;
+	transform:rotate(5deg);
+}
+.swiperFourth .photo_box .scene{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.swiperFourth .photo_box .ghost_box{
+	position: absolute;
+	top: 0;
+	/*z-index: 2;*/
+	width: 100%;
+	height: 100%;	
+}
+.swiperFourth .photo_box .ghost_box .ghost_num{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.swiperFourth .bottom_operation{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 32%;
+
+}
+.swiperFourth .bottom_operation .show{
+	height: 32%;
+	overflow-y: hidden;
+}
+.swiperFourth .bottom_operation .show .show_btn{
+	height: 100%;
+}
+.swiperFourth .bottom_operation .show img{
+	height: 120%;
+	margin:auto;
+    display: block;
+}
+.swiperFourth .bottom_operation .try_more{
+	color: #f2f2f2;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: underline;
+	margin:20px 0;
+}
+
+
+.swiperFourth .bottom_operation .friends_link{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 70%;
+}
+.swiperFourth .bottom_operation .friends_link a{
+	display: inline-block;
+	width: 30%;
+}
+.swiperFourth .bottom_operation .friends_link a img{
+	display: inline-block;
+	width: 100%;
+}
+.swiperFourth .bottom_operation .friends_link a .yupiao{
+	width: 110%;
+}
+
+.swiperFourth .show_shade{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/show_shade.png) no-repeat;
+	background-size: 100% 100%;
+}
+.swiperFourth .show_shade .show_tip{
+	padding-top: 7.509333rem;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+
+}
+
+
